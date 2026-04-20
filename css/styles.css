@@ -1006,12 +1006,6 @@ input:checked + label .custom-checkbox svg {
     
 }
 
-@media screen and (max-width: 398px){
-    .link-backdrop{
-        padding-left: 24px;
-    }
-}
-
 input:checked + label > .custom-checkbox {
     border-color: var(--ocean);
     background: var(--ocean);
@@ -1149,7 +1143,15 @@ input:checked + label > .custom-checkbox::after {
 
 
 
-
+.menu-h-container {
+    max-width: 320px;
+    width: 100%;
+    padding: 24px 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 
 @media screen and (min-width: 768px) {
@@ -1243,7 +1245,7 @@ FFFFFFFFF
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
-    column-gap: 24;
+    column-gap: 24px;
   }
 
   .sec-of-li{
