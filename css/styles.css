@@ -1317,20 +1317,8 @@ FFFFFFFFF
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
     column-gap: 24px;
     row-gap: 72px;
-    /* margin: 0 108px 0 auto; */
-    /* padding: 0 108px 0 auto; */
-    padding-left: 108px;
-    width: 100%;
-    /* width: calc((100% - 24px) / 2); */
-
-    width: 100%;
-    margin-right: auto;
-
-    padding-left: 0;
-    padding-right: 0;
     width: calc(100% - 216px);
     margin: 0 auto;
 }
@@ -1551,7 +1539,7 @@ margin-right: auto;
         padding: 120px 0;
     }
 
-}
+
 
     .f-div-1 {
         flex: 0 0 264px;
@@ -1568,7 +1556,7 @@ margin-right: auto;
         margin: 0;
     }
 
-
+}
 
 
 
