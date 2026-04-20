@@ -164,7 +164,7 @@ button {
 .address-konto{
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
@@ -290,7 +290,8 @@ button {
 .sec-of-ul{
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    row-gap: 72px;
+    column-gap: 24px;
 }
 
 .sec-of-li{
@@ -444,13 +445,6 @@ button {
                 0px 1px 1px rgba(46,46,66,0.16),
                 0px 2px 1px rgba(46,46,66,0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.sec-op-li:hover,
-.sec-op-li:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-                0px 1px 1px rgba(46, 47, 66, 0.16),
-                0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .sec-op-pod-li{
@@ -623,12 +617,9 @@ button {
 .f-div-1 {
     /* margin-right: 120px; */
     margin: 0;
-    margin-bottom: 72px;
 }
 
 .f-div-2 {
-    margin-bottom: 72px;
-
     justify-items: center;
     align-items: center;
 }
@@ -1162,7 +1153,8 @@ input:checked + label > .custom-checkbox::after {
   .container {
     max-width: 768px;
     margin: 0 auto;
-    padding: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
   }
 
   .menu-h{
@@ -1299,12 +1291,15 @@ FFFFFFFFF
     OOOOOTTER
     */
 
-.container .footer{
+.footer .container{
     width: 768px;
     margin: 0 auto;
     padding: 0px 108px 0px 108px;
 }
 
+  .menu-btn {
+    display: none;
+  }
 
 .footer-div{
     display: flex;
@@ -1434,7 +1429,7 @@ margin-right: auto;
     }
     .sec-of-li{
         width: 224px;
-        width: calc((100% - 24px) / 2);
+        width: calc((100% - 72px) / 4);
     }
     .sec-of-f-h{
         font-weight: 500;
@@ -1471,6 +1466,12 @@ margin-right: auto;
     PPPPPPPPP
   */
 
+.sec-op-li:hover {
+    box-shadow: 0px 1px 6px rgba(46,46,66,0.08),
+                0px 1px 1px rgba(46,46,66,0.16),
+                0px 2px 1px rgba(46,46,66,0.08);
+  }
+
     .sec-op-ul{
         max-width: 1158px;
         flex-direction: row;
@@ -1496,7 +1497,7 @@ margin-right: auto;
 }
 
 .footer{
-    padding: 100px auto;
+    padding: 100px 0;
     flex-direction: row;
     flex-wrap: nowrap;
 }
