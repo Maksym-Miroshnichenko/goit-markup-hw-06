@@ -1363,6 +1363,7 @@ margin-right: auto;
     .head-ul-2{
         gap: 40px;
         flex-direction: row;
+        flex-wrap: nowrap;
     }
 
     .head-ul-1{
