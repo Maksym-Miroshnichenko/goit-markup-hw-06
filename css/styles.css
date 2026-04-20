@@ -956,11 +956,11 @@ button {
     gap: 8px;
     cursor: pointer;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 1.17;
     color: var(--light-slate);
 
     margin-bottom: 0;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .custom-checkbox {
@@ -1242,11 +1242,12 @@ FFFFFFFFF
   .sec-of-ul{
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 72px;
+    row-gap: 72px;
+    column-gap: 24;
   }
 
   .sec-of-li{
-    width: calc((100% - 72px) / 2);
+    width: calc((100% - 24px) / 2);
   }
 
   .sec-of-f-h{
@@ -1285,7 +1286,7 @@ FFFFFFFFF
 .sec-op-ul{
     flex-wrap: wrap;
     flex-direction: row;
-    padding: 0 16px;
+    padding: 0;
     gap: 72px 24px;
 }
 
@@ -1302,7 +1303,8 @@ FFFFFFFFF
 .footer .container{
     width: 768px;
     margin: 0 auto;
-    padding: 0px 108px 0px 108px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
   .menu-btn {
@@ -1513,6 +1515,8 @@ margin-right: auto;
     */
 .footer .container{
     display: flex;
+    padding-right: 15px;
+    place-items: 15px;
     /* gap: 120px; */
 }
 
@@ -1522,9 +1526,10 @@ margin-right: auto;
     flex-wrap: nowrap;
 }
 .footer-div{
-    gap: 120px;
+    gap: 0;
     flex-wrap: nowrap;
     padding-left: 0;
+    justify-content: space-between;
 }
 
 .div-subscribe{
@@ -1541,6 +1546,20 @@ margin-right: auto;
 
 }
 
+.f-div-1{
+    flex: 0 0 264px;
+    margin-right: 120px;
+}
+
+.f-div-2{
+    flex: 0 0 208px;
+    margin-right: auto;
+}
+
+.div-subscribe{
+    flex: 0 0 ;
+    margin: 0;
+}
 
 
 
