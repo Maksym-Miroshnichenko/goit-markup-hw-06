@@ -1553,20 +1553,20 @@ margin-right: auto;
 
 }
 
-.f-div-1{
-    flex: 0 0 264px;
-    margin-right: 120px;
-}
+    .f-div-1 {
+        flex: 0 0 264px;
+        margin-right: 120px;
+    }
 
-.f-div-2{
-    flex: 0 0 208px;
-    margin-right: auto;
-}
+    .f-div-2 {
+        flex: 0 0 208px;
+        margin-right: auto;
+    }
 
-.div-subscribe{
-    flex: 0 0 ;
-    margin: 0;
-}
+    .div-subscribe {
+        flex: 0 0 453px;
+        margin: 0;
+    }
 
 
 
