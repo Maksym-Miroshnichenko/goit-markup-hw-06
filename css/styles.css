@@ -966,7 +966,7 @@ button {
     color: var(--light-slate);
 
     margin-bottom: 0;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .custom-checkbox {
@@ -1133,6 +1133,7 @@ input:checked + label > .custom-checkbox::after {
     line-height: 120%;
     letter-spacing: 0.02em;
     color: var(--slate);
+    font-style: normal;
 }
 
 .address-konto-m:focus,
