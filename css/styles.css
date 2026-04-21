@@ -33,6 +33,7 @@ body {
     background: var(--white);
     font-family: 'Roboto', sans-serif;
     color: #2e2f42;
+    overflow-x: hidden;
 }
 
 button {
@@ -519,6 +520,7 @@ button {
     background: var(--navy-blue);
     padding: 96px 0;
     width: 100%;
+    box-sizing: border-box;
 }
 
 .footer-div{
@@ -1339,7 +1341,8 @@ FFFFFFFFF
     */
 
 .footer .container{
-    width: 768px;
+    max-width: 768px;
+    width: 100%;
     margin: 0 auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -1355,7 +1358,8 @@ FFFFFFFFF
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    width: calc(100% - 216px);
+    /* width: calc(100% - 216px); */
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1567,14 +1571,19 @@ margin-right: auto;
     place-items: 156px;
     display: flex; */
     /* gap: 120px; */
+    display: flex;
     align-items: flex-start;
+    padding-left: auto;
+    margin: 0 auto;
+    max-width: 1440px;
+    /* padding-left: 16px;
+    padding-right: 16px; */
 }
 
 .footer .container{
     /* width: 768px;
     margin: 0 56px; */
-    padding-left: 16px;
-    padding-right: 16px;
+
 }
 
 .footer{
@@ -1583,7 +1592,7 @@ margin-right: auto;
     flex-wrap: nowrap;
 }
 .footer-div{
-    width: 100%;
+    width: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
