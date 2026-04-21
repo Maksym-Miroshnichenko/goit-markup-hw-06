@@ -62,9 +62,9 @@ button {
 }
 
 .header .container {
-        max-width: 1440px;
+        /* max-width: 1440px;
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 15px; */
         gap: 70px;
     }
 
@@ -1145,6 +1145,7 @@ input:checked + label > .custom-checkbox::after {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: space-between;
 }
 
 
@@ -1153,7 +1154,11 @@ input:checked + label > .custom-checkbox::after {
     gap: 40px;
 }
 
-
+.menu-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
 
 .menu-h-container {
     max-width: 320px;
@@ -1176,9 +1181,9 @@ input:checked + label > .custom-checkbox::after {
 
 
 .header .container {
-        max-width: 1440px;
+        /* max-width: 1440px;
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 15px; */
         gap: 122px;
     }
 
@@ -1403,9 +1408,9 @@ margin-right: auto;
     }
 
     .header .container {
-        max-width: 1440px;
+        /* max-width: 1440px;
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 15px; */
         gap: 332px;
     }
 
@@ -1557,16 +1562,17 @@ margin-right: auto;
     OOOOOTTER
     */
 .footer .container{
-    max-width: 1440px;
-    padding-right: 156px;
+    /* max-width: 1440px; */
+    /* padding-right: 156px;
     place-items: 156px;
-    display: flex;
+    display: flex; */
     /* gap: 120px; */
+    align-items: flex-start;
 }
 
 .footer .container{
-    width: 768px;
-    margin: 0 56px;
+    /* width: 768px;
+    margin: 0 56px; */
     padding-left: 16px;
     padding-right: 16px;
 }
