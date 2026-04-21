@@ -61,6 +61,12 @@ button {
                 0 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.header .container {
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 70px;
+    }
 
 .icon-menu{
     height: 24px;
@@ -1167,6 +1173,14 @@ input:checked + label > .custom-checkbox::after {
     padding-left: 16px;
   }
 
+
+.header .container {
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 122px;
+    }
+
   .menu-h{
     display: none;
   }
@@ -1185,6 +1199,17 @@ input:checked + label > .custom-checkbox::after {
     height: 72px;
     padding: 0;
   }
+
+  .header-nav{
+    flex: 1;
+    margin-right: auto;
+  }
+
+address{
+    font-style: normal;
+        display: flex;
+        align-items: center;
+}
 
 .head-ul-1{
     display: flex;
@@ -1371,6 +1396,18 @@ margin-right: auto;
         margin: 0 auto;
     }
 
+    .header {
+        height: 72px;
+        padding: 0;
+    }
+
+    .header .container {
+        max-width: 1440px;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 332px;
+    }
+
     .logo {
         margin-right: 76px;
     }
@@ -1519,10 +1556,18 @@ margin-right: auto;
     OOOOOTTER
     */
 .footer .container{
+    max-width: 1440px;
+    padding-right: 156px;
+    place-items: 156px;
     display: flex;
-    padding-right: 15px;
-    place-items: 15px;
     /* gap: 120px; */
+}
+
+.footer .container{
+    width: 768px;
+    margin: 0 56px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .footer{
@@ -1531,8 +1576,12 @@ margin-right: auto;
     flex-wrap: nowrap;
 }
 .footer-div{
-    gap: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 80px;
     padding-left: 0;
     justify-content: space-between;
 }
@@ -1552,18 +1601,23 @@ margin-right: auto;
 
 
     .f-div-1 {
-        flex: 0 0 264px;
-        margin-right: 120px;
+        flex: 0 0 auto;
+        width: 264px;
+        margin-right: 0;
     }
 
     .f-div-2 {
-        flex: 0 0 208px;
-        margin-right: auto;
+        flex: 0 0 auto;
+        width: 208px;
+        margin-right: 0;
     }
 
     .div-subscribe {
-        flex: 0 0 453px;
+        flex: 0 0 auto;
+        width: 453px;
         margin: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 
 }
